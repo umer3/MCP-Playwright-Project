@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__playwright__browser_navigate",
+      "mcp__playwright__*",
+      "PowerShell(npx playwright test tests/smoke/login.spec.js --reporter=list)"
+    ]
+  }
+}

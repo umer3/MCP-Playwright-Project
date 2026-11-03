@@ -1,0 +1,9 @@
+{
+  "validMessage": {
+    "firstName": "QA",
+    "lastName": "Tester",
+    "email": "qa.tester.e2e@example.com",
+    "subject": "Customer service",
+    "message": "This is a smoke test message with enough length to pass validation."
+  }
+}

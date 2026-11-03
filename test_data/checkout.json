@@ -1,0 +1,26 @@
+{
+  "guest": {
+    "firstName": "QA",
+    "lastName": "Checkout"
+  },
+  "billingAddress": {
+    "country": "Netherlands (the)",
+    "postalCode": "1011AB",
+    "houseNumber": "42"
+  },
+  "bankTransfer": {
+    "bankName": "Test Bank",
+    "accountName": "QA Checkout",
+    "accountNumber": "123456789"
+  },
+  "creditCard": {
+    "cardNumber": "4111-1111-1111-1111",
+    "expirationDate": "12/2030",
+    "cvv": "123",
+    "holderName": "QA Checkout"
+  },
+  "giftCard": {
+    "cardNumber": "GIFT123456789012",
+    "validationCode": "4321"
+  }
+}

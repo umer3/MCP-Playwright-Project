@@ -1,0 +1,16 @@
+{
+  "newUserTemplate": {
+    "firstName": "QA",
+    "lastName": "Smoke",
+    "dob": "1990-01-01",
+    "country": "Netherlands (the)",
+    "postalCode": "1011AB",
+    "houseNumber": "42",
+    "phone": "0612345678",
+    "password": "SmokeTest123!"
+  },
+  "invalidLogin": {
+    "email": "invalid_user_e2e@example.com",
+    "password": "WrongPass123!"
+  }
+}
