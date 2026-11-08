@@ -12,6 +12,7 @@ export class CatalogPage {
     this.searchInput = page.getByTestId('search-query');
     this.searchSubmitButton = page.getByTestId('search-submit');
     this.searchResetButton = page.getByTestId('search-reset');
+    this.noProductsMessage = page.getByText('There are no products found.', { exact: true });
     this.productNames = page.getByTestId('product-name');
     this.productPrices = page.getByTestId('product-price');
     this.sortSelect = page.getByTestId('sort');
@@ -44,6 +45,10 @@ export class CatalogPage {
     // The filtered list starts updating asynchronously. Callers should use a
     // retrying assertion for the final results because the UI is debounced.
     await this.page.waitForLoadState('networkidle');
+  }
+
+  async resetSearch() {
+    await this.searchResetButton.click();
   }
 
   async openProduct(name) {
